@@ -1,12 +1,12 @@
 {
   "name": "bb-plugin-thread-list-by-day",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "bb": ">=0.0",
     "bbPluginSdk": ">=0.5.16"
   },
   "bb": {
-    "name": "Thread list by day",
+    "name": "Claude-Like Threads",
     "description": "bb's thread list with Today / Yesterday / date headers in the Threads section.",
     "branding": {
       "icon": "ListView"
