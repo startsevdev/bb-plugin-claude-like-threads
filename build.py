@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the "Thread list by day" bb plugin from bb's bundled thread-list plugin.
+"""Build the "Claude-Like Threads" bb plugin from bb's bundled thread-list plugin.
 
 Copies the bundled plugin out of the installed bb.app, renames it, and patches
 the frontend bundle so the chronological "Threads" section shows day headers
@@ -123,7 +123,7 @@ def patch_app_js(js: str) -> str:
 
     # 5. Own plugin id (CSS scoping attribute, slot id) and title.
     js = js.replace(f'"{OLD_ID}"', f'"{NEW_ID}"')
-    js = replace_once(js, 'title:"Thread list",', 'title:"Thread list by day",', "slot title")
+    js = replace_once(js, 'title:"Thread list",', 'title:"Claude-Like Threads",', "slot title")
 
     section_fn = find_one(r'function (\w+)\(\{label:e,labelEditor:t,onRename:n,children:r,', js, "section fn").group(1)
     helpers = (HELPERS.replace("__SECTION__", section_fn).replace("__JSXS__", jsxs).replace("__JSX__", jsx)
@@ -159,7 +159,7 @@ def main() -> None:
         "version": pkg["version"],
         "engines": pkg["engines"],
         "bb": {
-            "name": "Thread list by day",
+            "name": "Claude-Like Threads",
             "description": "bb's thread list with Today / Yesterday / date headers in the Threads section.",
             "branding": pkg["bb"].get("branding", {}),
             "server": "./dist/server.js",

@@ -1,14 +1,14 @@
-# Thread list by day
+# Claude-Like Threads
 
 The original BB chronological sidebar with collapsible Today, Yesterday, recent dates and Older. It keeps BB's thread rows, pinned threads, sections, menus and existing list controls. Today and Yesterday expand to show all their threads. Prior days start with six rows and Older with twenty.
 
 Install with BB:
 
 ~~~sh
-bb plugin install git:https://github.com/startsevdev/bb-plugin-thread-list-by-day.git@v0.1.0
+bb plugin install git:https://github.com/startsevdev/bb-plugin-thread-list-by-day.git@v0.1.2
 ~~~
 
-Select **Thread list by day** under **Settings → Appearance**. The day headers appear in chronological organization with Updated or Created sorting. If needed, run:
+Select **Claude-Like Threads** under **Settings → Appearance**. The day headers appear in chronological organization with Updated or Created sorting. If needed, run:
 
 ~~~sh
 bb thread-list-by-day prefs set organizationMode chronological
