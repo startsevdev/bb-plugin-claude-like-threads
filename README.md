@@ -5,7 +5,7 @@ The original BB chronological sidebar with collapsible Today, Yesterday, recent 
 Install with BB:
 
 ~~~sh
-bb plugin install git:https://github.com/startsevdev/bb-plugin-thread-list-by-day.git@v0.1.2
+bb plugin install git:https://github.com/startsevdev/bb-plugin-claude-like-threads.git@v0.1.2
 ~~~
 
 Select **Claude-Like Threads** under **Settings → Appearance**. The day headers appear in chronological organization with Updated or Created sorting. If needed, run:
