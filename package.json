@@ -1,0 +1,26 @@
+{
+  "name": "bb-plugin-thread-list-by-day",
+  "version": "0.1.0",
+  "engines": {
+    "bb": ">=0.0",
+    "bbPluginSdk": ">=0.5.16"
+  },
+  "bb": {
+    "name": "Thread list by day",
+    "description": "bb's thread list with Today / Yesterday / date headers in the Threads section.",
+    "branding": {
+      "icon": "ListView"
+    },
+    "server": "./dist/server.js",
+    "app": "./dist/app.js"
+  },
+  "private": true,
+  "type": "module",
+  "description": "bb's thread list with day headers.",
+  "keywords": [
+    "bb-plugin"
+  ],
+  "dependencies": {
+    "zod": "4.6.5"
+  }
+}
