@@ -2,7 +2,7 @@
 
 ![Claude-Like Threads in BB. Pinned conversations sit above today’s work. The thread titles are examples.](assets/cover.png)
 
-You remember working on the release yesterday. Which project was it in? Open **Yesterday** in the BB sidebar and pick up the conversation. Claude-Like Threads brings the familiar day-by-day thread list to BB, across your projects.
+**One timeline across projects, newest activity first.** Open Today to see what’s running and what you just worked on. Yesterday and the dated groups below it take you back to an earlier conversation, even when you’ve forgotten which project it belongs to.
 
 ## Install
 
@@ -16,7 +16,11 @@ In **Settings → Appearance**, choose **Claude-Like Threads** as your thread li
 
 **Today and Yesterday** show every thread in those groups. A conversation running now appears under Today when sorted by activity. Pins stay at the top, with your custom sections and thread menus available as usual.
 
-**Earlier this week** opens with six threads per day. **Older** shows twenty at a time. Click **Show more** to go further back. Collapse any day to make room for the one you need. The sidebar remembers the groups you collapsed in that window.
+**Other days in the past week** opens with six threads per day. **Older** shows twenty at a time. Click **Show more** to go further back. Collapse any day to make room for the one you need. The sidebar remembers the groups you collapsed in that window.
+
+## Keep your place in a busy sidebar
+
+Long titles stay on one line, and date headers scroll away with their rows. Open an older thread and it stays visible in its expanded day, even beyond the initial row limit. Pins, drag-and-drop, custom sections and right-click menus still work the way they do in BB.
 
 ## Choose what a day means
 
